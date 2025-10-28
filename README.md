@@ -2,13 +2,27 @@
 
 A simple React form built using React Hook Form that demonstrates form validation, submission handling, and dynamic user feedback. The form includes real-time validation for required fields, minimum/maximum character length checks, and displays error messages accordingly. After a successful submission, the form resets automatically, and a success message appears briefly for 3 seconds before disappearing.
 
-This project is great for learning or demonstrating:
+## This project is great for learning or demonstrating:
 
-Form validation with react-hook-form
+- Form validation with React Hook Form
 
-Conditional rendering of error and success messages
+- Conditional rendering of error and success messages
 
-Managing form submission states (isSubmitting, isSubmitSuccessful)
+- Managing form submission states (isSubmitting, isSubmitSuccessful)
+
+## Features
+
+✅ Real-time input validation
+
+⚙️ Async form submission simulation
+
+💬 Dynamic error messages
+
+🔁 Auto-reset form after submission
+
+⏱️ Success message auto-dismiss after 3 seconds
+
+🎨 Customizable input styling via App.css
 
 Simple asynchronous simulation of API calls
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
