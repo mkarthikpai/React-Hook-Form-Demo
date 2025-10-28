@@ -33,4 +33,3 @@ A simple React form built using React Hook Form that demonstrates form validatio
 - React Hook Form
 
 - CSS (for styling)
-
