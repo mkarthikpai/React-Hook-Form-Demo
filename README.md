@@ -1,9 +1,16 @@
-# React + Vite
+# React Hook Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React form built using React Hook Form that demonstrates form validation, submission handling, and dynamic user feedback. The form includes real-time validation for required fields, minimum/maximum character length checks, and displays error messages accordingly. After a successful submission, the form resets automatically, and a success message appears briefly for 3 seconds before disappearing.
 
-Currently, two official plugins are available:
+This project is great for learning or demonstrating:
 
+Form validation with react-hook-form
+
+Conditional rendering of error and success messages
+
+Managing form submission states (isSubmitting, isSubmitSuccessful)
+
+Simple asynchronous simulation of API calls
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
